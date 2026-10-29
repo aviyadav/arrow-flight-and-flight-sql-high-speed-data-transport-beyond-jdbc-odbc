@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-10-29T22:57:59.785280+00:00",
+  "target_day": "2026-08-01",
+  "tables": {
+    "events": {
+      "rows": 200000,
+      "csv": "data/csv/events.csv",
+      "parquet": "data/parquet/events/part-0000.parquet",
+      "rustfs_key": "demo/events/part-0000.parquet"
+    },
+    "sales": {
+      "rows": 100000,
+      "csv": "data/csv/sales.csv",
+      "parquet": "data/parquet/sales/part-0000.parquet",
+      "rustfs_key": "demo/sales/part-0000.parquet"
+    }
+  }
+}

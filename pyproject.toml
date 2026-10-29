@@ -1,0 +1,26 @@
+[project]
+name = "arrow-flight-postgres-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Avinash", email = "avinash.yadav@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "adbc-driver-flightsql>=1.13.0",
+    "adbc-driver-manager>=1.13.0",
+    "boto3>=1.43.122",
+    "pandas>=3.1.0",
+    "polars>=2.1.0",
+    "psycopg[binary]>=3.3.6",
+    "pyarrow>=26.0.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+arrow-flight-postgres-demo = "arrow_flight_postgres_demo:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"

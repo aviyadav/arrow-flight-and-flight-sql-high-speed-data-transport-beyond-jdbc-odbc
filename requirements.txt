@@ -1,0 +1,7 @@
+pyarrow>=17.0.0
+psycopg[binary]>=3.2.0
+python-dotenv>=1.0.0
+boto3>=1.34.0
+pandas>=2.2.0
+adbc-driver-manager>=1.0.0
+adbc-driver-flightsql>=1.0.0
